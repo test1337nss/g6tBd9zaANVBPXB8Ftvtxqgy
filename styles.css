@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #004080;
+    color: white;
+    z-index: 1000;
+}
+
+h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+}
+
+ul.customers-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+form label {
+    display: block;
+    margin: 1rem 0 0.5rem 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 1rem;
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
